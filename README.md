@@ -9,7 +9,7 @@ The main way to interact with the SDK is through a `Resolver`. You can create on
 ```go
 package mypackage
 
-import pokemon "github.com/boyski33/poke-sdk/v2"
+import pokemon "github.com/boyski33/pokemon-sdk/v2"
 
 func main() {
 	resolver := pokemon.NewResolver()
@@ -135,8 +135,8 @@ timeouts per request if needed by providing a `context.Context`.
 
 ### Versioning
 
-Since the Pokemon API only has v2 exposed, I've set the module name to `github.com/boyski33/poke-sdk/v2`. If a v3 comes
-out, the library can migrate to v3 and change the module name to `github.com/boyski33/poke-sdk/v3`. This will happen
+Since the Pokemon API only has v2 exposed, I've set the module name to `github.com/boyski33/pokemon-sdk/v2`. If a v3 comes
+out, the library can migrate to v3 and change the module name to `github.com/boyski33/pokemon-sdk/v3`. This will happen
 alongside a new git tag following that convention. This approach is taken from https://github.com/redis/go-redis.
 
 ## How to run

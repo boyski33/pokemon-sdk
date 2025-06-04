@@ -1,4 +1,4 @@
-module github.com/boyski33/poke-sdk/v2
+module github.com/boyski33/pokemon-sdk/v2
 
 go 1.24
 

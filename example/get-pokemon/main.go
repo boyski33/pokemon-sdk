@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	pokemon "github.com/boyski33/poke-sdk/v2"
+	"github.com/boyski33/pokemon-sdk/v2"
 	"log"
 	"time"
 )

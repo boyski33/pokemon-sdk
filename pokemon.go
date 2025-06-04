@@ -2,7 +2,7 @@ package pokemon
 
 import (
 	"context"
-	"github.com/boyski33/poke-sdk/v2/model"
+	"github.com/boyski33/pokemon-sdk/v2/model"
 	"io"
 	"net/http"
 )

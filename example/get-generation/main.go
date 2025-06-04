@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	pokemon "github.com/boyski33/poke-sdk/v2"
+	pokemon "github.com/boyski33/pokemon-sdk/v2"
 	"log"
 	"time"
 )
@@ -25,5 +25,5 @@ func main() {
 		log.Fatal(err)
 	}
 
-	fmt.Println(gen.Name)
+	fmt.Println("Generation name: ", gen.Name)
 }
