@@ -1,0 +1,6 @@
+test-integration:
+	go test -v -tags=integration ./...
+test-live:
+	go test -v -tags=live ./...
+run-example:
+	go run ./example/get-pokemon/main.go
